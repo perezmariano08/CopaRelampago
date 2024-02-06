@@ -9,7 +9,8 @@ export const InputContainerStyled = styled.div`
     align-items: center;
     gap: 5px;
     color: var(--gray-200);
-    font-size: 14px;
+    font-size: 16px;
+    width: 100%;
 `
 
 export const InputWrapper = styled.input`
@@ -18,4 +19,8 @@ export const InputWrapper = styled.input`
     color: var(--white);
     outline: none; 
     width: 100%;
+    &::-webkit-calendar-picker-indicator {
+        filter: invert(1); /* Invierte los colores del icono */ 
+    }
+
 `;

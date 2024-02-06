@@ -31,7 +31,7 @@ const Login = () => {
                     </LoginDataWrapper>
                     <Button to={'/'}>Iniciar Sesion</Button>
                 </LoginDataContainer>
-                <p>¿No tienes cuenta? <NavLink>Crea tu cuenta</NavLink></p>
+                <p>¿No tienes cuenta? <NavLink to={'/create-account'}>Crea tu cuenta</NavLink></p>
             </LoginWrapperDown>
 
         </LoginContainerStyled>

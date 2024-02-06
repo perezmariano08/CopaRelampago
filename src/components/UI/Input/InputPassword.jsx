@@ -6,7 +6,7 @@ const InputPassword = ({children, placeholder}) => {
     return (
         <InputContainerStyled>
             {children}
-            <InputWrapper placeholder={placeholder}></InputWrapper>
+            <InputWrapper type="password" placeholder={placeholder}></InputWrapper>
             <HiEye/>
         </InputContainerStyled>
     )
