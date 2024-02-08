@@ -19,8 +19,4 @@ export const InputWrapper = styled.input`
     color: var(--white);
     outline: none; 
     width: 100%;
-    &::-webkit-calendar-picker-indicator {
-        filter: invert(1); /* Invierte los colores del icono */ 
-    }
-
 `;

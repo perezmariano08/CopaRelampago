@@ -9,6 +9,7 @@ export const SelectContainerStyled = styled.div`
     border: none;
     border-radius: 10px;
     font-size: 16px;
+    gap: 5px;
 `
 export const SelectWrapper = styled.select`
     width: 100%;

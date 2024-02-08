@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const CreateAccountContainerStyled = styled.div`
     padding: 30px;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 `
 
 export const CreateAccountWrapper = styled.div`
@@ -13,7 +15,7 @@ export const CreateAccountWrapper = styled.div`
     gap: 100px;
     width: 100%;
     height: 100%;
-    
+
     p a {
         color: var(--green);
     }
