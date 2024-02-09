@@ -17,7 +17,6 @@ const CreateAccount = () => {
                         <Input placeholder={'DNI'}><HiOutlineCreditCard/></Input>
                         <Input placeholder={'Nombre'}><HiUser/></Input>
                         <Input placeholder={'Apellido'}><HiUser/></Input>
-                        <input type="date" placeholder='Fecha de nacimiento' />
                         <Input type="date" placeholder={'Fecha de nacimiento'}><HiCalendar/></Input>
                         <Input placeholder={'Telefono'}><HiPhone/></Input>
                         <Input type="email" placeholder={'Email'}><HiEnvelope/></Input>
