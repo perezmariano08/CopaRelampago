@@ -1,15 +1,12 @@
 import React from 'react'
-import { Navbar } from '../../components/Navbar/Navbar'
 import CardPartido from '../../components/Stats/CardPartido/CardPartido'
 import { HomeWrapper, HomeContainerStyled, CardsMatchesContainer, CardsMatchesWrapper } from './HomeStyles'
 import Section from '../../components/Section/Section'
 import Table from '../../components/Stats/Table/Table'
-import MenuBottom from '../../components/MenuBottom/MenuBottom'
 
 const Home = () => {
     return (
         <>
-            <Navbar/>
             <HomeContainerStyled>
                 <HomeWrapper>
                     <Section>
@@ -35,7 +32,6 @@ const Home = () => {
                     </Section>
                 </HomeWrapper>
             </HomeContainerStyled>
-            <MenuBottom/>
         </> 
     )
 }

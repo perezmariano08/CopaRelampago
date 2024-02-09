@@ -1,10 +1,10 @@
 import React from 'react'
 import { LayoutContainerStyled } from './LayoutStyles'
 
-const Layout = () => {
+const Layout = ({children}) => {
     return (
         <LayoutContainerStyled>
-            
+            {children}
         </LayoutContainerStyled>
     )
 }

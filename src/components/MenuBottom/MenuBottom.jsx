@@ -9,7 +9,7 @@ const MenuBottom = () => {
           <HiHome/>
           HOME
         </MenuBottomItem>
-        <MenuBottomItem to={'/onboading'}>
+        <MenuBottomItem to={'/my-team'}>
           <HiOutlineUserGroup/>
           MI EQUIPO
         </MenuBottomItem>

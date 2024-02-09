@@ -11,6 +11,7 @@ export const GlobalStyles = createGlobalStyle`
         --gray-400: #1A1B1B;
         --gray-500: #101011;
         --black: #121212;
+        --yellow: #E2B000;
     }
 
     html {
