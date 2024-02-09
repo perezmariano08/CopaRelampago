@@ -55,7 +55,7 @@ export const GlobalStyles = createGlobalStyle`
     /* Estilo del pulgar (el indicador que se arrastra) de la barra de desplazamiento en Chrome */
     ::-webkit-scrollbar-thumb {
         background-color: var(--gray-300); /* Color del pulgar */
-        height: 10px;
+        height: 20px;
         border-radius: 20px;
         transition: all .3s ease-in-out;
         cursor: pointer;

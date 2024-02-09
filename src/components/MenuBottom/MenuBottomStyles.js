@@ -15,7 +15,7 @@ export const MenuBottomWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 20px 30px;
 `
 
 export const MenuBottomItem = styled(NavLink)`
