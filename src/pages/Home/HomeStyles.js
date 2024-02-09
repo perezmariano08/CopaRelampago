@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HomeContainerStyled = styled.div`
-    padding: 30px;
+    padding: 30px 30px 180px 30px;
 `
 
 export const HomeWrapper = styled.div`

@@ -4,6 +4,7 @@ import CardPartido from '../../components/Stats/CardPartido/CardPartido'
 import { HomeWrapper, HomeContainerStyled, CardsMatchesContainer, CardsMatchesWrapper } from './HomeStyles'
 import Section from '../../components/Section/Section'
 import Table from '../../components/Stats/Table/Table'
+import MenuBottom from '../../components/MenuBottom/MenuBottom'
 
 const Home = () => {
     return (
@@ -34,7 +35,7 @@ const Home = () => {
                     </Section>
                 </HomeWrapper>
             </HomeContainerStyled>
-            
+            <MenuBottom/>
         </> 
     )
 }
