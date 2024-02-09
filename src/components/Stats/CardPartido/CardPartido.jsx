@@ -5,7 +5,7 @@ import EscudoPuraQuimica from '/Escudos/pura-quimica.png'
 
 const CardPartido = ({finished}) => {
     return (
-        <CardPartidoWrapper>
+        <CardPartidoWrapper> 
             <CardPartidoTitles>
                 
                 <h3>Serie A - Apertura 2024</h3>
