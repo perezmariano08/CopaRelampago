@@ -18,7 +18,7 @@ export const CardsMatchesContainer = styled.div`
 `
 export const CardsMatchesWrapper = styled.div`
     display: flex;
-    gap: 10px;
+    gap: 20px;
     height: 100%;
     overflow-x: auto;
     padding: 0px 0 15px 0;

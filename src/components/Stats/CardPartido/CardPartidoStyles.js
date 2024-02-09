@@ -8,7 +8,7 @@ export const CardPartidoWrapper = styled.div`
     gap: 20px;
     align-items: center;
     border-radius: 20px;
-    min-width: 100%;
+    min-width: 85%;
 `
 export const CardPartidoTitles = styled.div`
     display: flex;
