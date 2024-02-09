@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const CardPartidoWrapper = styled.div`
     background-color: var(--gray-300);
-    padding: 20px 50px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -17,13 +17,13 @@ export const CardPartidoTitles = styled.div`
     text-align: center;
 
     h3 {
-        font-size: 12px;
+        font-size: 13px;
         font-weight: 600;
         line-height: 12px;
     }
 
     p {
-        font-size: 8px;
+        font-size: 9px;
         font-weight: 300;
         color: var(--green)
     }
@@ -41,14 +41,17 @@ export const CardPartidoTeam = styled.div`
     gap: 6px;
     justify-content: center;
     align-items: center;
+    max-width: 80px;
+
     img {
-        width: 50px;
+        width: 60px;
     }
 
     h4 {
         font-size: 12px;
         font-weight: 300;
         min-height: 24px;
+        text-align: center;
     }
 `
 export const CardPartidoInfo = styled.div`
@@ -81,4 +84,21 @@ export const CardPartidoInfo = styled.div`
     }
 `
 
+export const CardPartidoDivider = styled.div`
+    height: 1px;
+    width: 100%;
+    background-color: var(--gray-200);
+`
+
+export const CardPartidoStats = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; 
+    a {
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--gray-200);
+    }
+`
 

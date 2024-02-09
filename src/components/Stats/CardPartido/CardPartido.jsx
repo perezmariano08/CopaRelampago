@@ -1,5 +1,5 @@
 import React from 'react'
-import { CardPartidoTitles, CardPartidoWrapper, CardPartidoTeams, CardPartidoTeam, CardPartidoInfo } from './CardPartidoStyles'
+import { CardPartidoTitles, CardPartidoWrapper, CardPartidoTeams, CardPartidoTeam, CardPartidoInfo, CardPartidoStats, CardPartidoDivider } from './CardPartidoStyles'
 import EscudoCelta from '/Escudos/celta-de-vino.png'
 import EscudoPuraQuimica from '/Escudos/pura-quimica.png'
 
@@ -18,13 +18,12 @@ const CardPartido = ({finished}) => {
                             <p>Fecha 1 - Cancha 1</p>
                         </>
                     )}
-
             </CardPartidoTitles>
             <CardPartidoTeams>
                 <CardPartidoTeam>
                     <img src={EscudoCelta} />
                     <h4>
-                        Celta de Vino
+                        Celta de vino
                     </h4>
                 </CardPartidoTeam>
 
@@ -48,8 +47,24 @@ const CardPartido = ({finished}) => {
                         Pura Química
                     </h4>
                 </CardPartidoTeam>
-
+                
             </CardPartidoTeams>
+            {
+                finished ? (
+                    <>
+                        <CardPartidoDivider/>
+                        <CardPartidoStats>
+                            <a>
+                                Ver estadísticas completas
+                            </a>
+                        </CardPartidoStats>
+                    </>
+                    
+                ) : (
+                    <>
+                    </>
+                )
+            }
         </CardPartidoWrapper>
     )
 }
