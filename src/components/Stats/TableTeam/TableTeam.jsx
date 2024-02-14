@@ -19,8 +19,8 @@ const TableTeam = () => {
                 <th>PJ</th>
                 <th>G</th>
                 <th>A</th>
-                <th> <HiMiniStop/> </th>
-                <th> <HiMiniStop/> </th>
+                <th className='CardYellow'> <HiMiniStop/> </th>
+                <th className='CardRed'> <HiMiniStop/> </th>
             </tr>
         </thead>
         <tbody>
@@ -32,6 +32,8 @@ const TableTeam = () => {
                 <td>20</td>
                 <td>10</td>
                 <td>+6</td>
+                <td>1</td>
+                <td>0</td>
             </tr>
             <tr>
                 <td className='team'>
@@ -41,6 +43,8 @@ const TableTeam = () => {
                 <td>20</td>
                 <td>10</td>
                 <td>+8</td>
+                <td>1</td>
+                <td>0</td>
             </tr>
             <tr>
                 <td className='team'>
@@ -50,6 +54,8 @@ const TableTeam = () => {
                 <td>20</td>
                 <td>10</td>
                 <td>+6</td>
+                <td>1</td>
+                <td>0</td>
             </tr>
             <tr>
                 <td className='team'>
@@ -59,6 +65,8 @@ const TableTeam = () => {
                 <td>20</td>
                 <td>10</td>
                 <td>+6</td>
+                <td>1</td>
+                <td>0</td>
             </tr>
             <tr>
                 <td className='team'>
@@ -68,6 +76,8 @@ const TableTeam = () => {
                 <td>20</td>
                 <td>10</td>
                 <td>+6</td>
+                <td>1</td>
+                <td>0</td>
             </tr>
         </tbody>
         </TableWrapper>

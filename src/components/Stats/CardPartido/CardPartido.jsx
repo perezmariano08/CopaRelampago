@@ -2,6 +2,8 @@ import React from 'react'
 import { CardPartidoTitles, CardPartidoWrapper, CardPartidoTeams, CardPartidoTeam, CardPartidoInfo, CardPartidoStats, CardPartidoDivider } from './CardPartidoStyles'
 import EscudoCelta from '/Escudos/celta-de-vino.png'
 import EscudoPuraQuimica from '/Escudos/pura-quimica.png'
+import { NavLink } from 'react-router-dom'
+
 
 const CardPartido = ({finished}) => {
     return (
@@ -54,9 +56,9 @@ const CardPartido = ({finished}) => {
                     <>
                         <CardPartidoDivider/>
                         <CardPartidoStats>
-                            <a>
+                            <NavLink to = "/stats-match">
                                 Ver estadísticas completas
-                            </a>
+                            </NavLink>
                         </CardPartidoStats>
                     </>
                     

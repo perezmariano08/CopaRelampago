@@ -75,4 +75,51 @@ export const TableWrapper = styled.table`
     .three {
         border-left: 2px solid var(--red);
     }
+
+    .CardYellow {
+        color: yellow;
+    }
+
+    .CardRed {
+        color: red;
+    }
+
+    
+`
+export const TableFoot = styled.div`
+    display: flex;
+    gap: 15px;
+    padding: 0 20px;
+    flex-wrap: wrap;
+`
+
+export const TableFootItem = styled.div `
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+    h3 {
+        font-weight: 200;
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    div {
+        border-radius: 50%;
+        height: 4px;
+        width: 4px;
+        background-color: red;
+
+        &.one {
+            background-color: var(--green);
+        }
+
+        &.two {
+            background-color: var(--yellow);
+        }
+
+        &.three {
+            background-color: var(--red);
+        }
+    }
 `

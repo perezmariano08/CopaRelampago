@@ -14,11 +14,11 @@ const MenuBottom = () => {
           MI EQUIPO
         </MenuBottomItem>
         
-        <MenuBottomItem to={'/onboarding'}>
+        <MenuBottomItem to={'/stats'}>
           <HiAdjustmentsVertical/>
           ESTADISTICAS
         </MenuBottomItem>
-        <MenuBottomItem to={'/onboarding'}>
+        <MenuBottomItem to={'/onboardin'}>
           <HiBars3BottomRight/>
           MAS
         </MenuBottomItem>

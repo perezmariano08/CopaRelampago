@@ -9,9 +9,11 @@ import Home from '../pages/Home/Home'
 import Login from '../pages/Login/Login'
 import CreateAccount from '../pages/CreateAccount/CreateAccount'
 import MyTeam from '../pages/MyTeam/MyTeam'
+import Stats from '../pages/Stats/Stats'
 import Layout from '../components/Layout/Layout'
 import { Navbar } from '../components/Navbar/Navbar'
 import MenuBottom from '../components/MenuBottom/MenuBottom'
+import MatchStats from '../pages/MatchStats/MatchStats'
 
 const Routes = () => {
     return (
@@ -24,6 +26,8 @@ const Routes = () => {
                     <Route path='/login' element={<Login/>}/>
                     <Route path='/create-account' element={<CreateAccount/>}/>
                     <Route path='/my-team' element={<MyTeam/>}/>
+                    <Route path='/stats' element={<Stats/>}/>
+                    <Route path='/stats-match' element={<MatchStats/>}/>
                 </ReactDomRoutes>
             </Layout>
             <MenuBottom/>

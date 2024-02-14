@@ -1,5 +1,5 @@
 import React from 'react'
-import { TableContainerStyled, TableTitle, TableTitleDivider, TableWrapper } from './TableStyles'
+import { TableContainerStyled, TableTitle, TableTitleDivider, TableWrapper, TableFoot, TableFootItem } from './TableStyles'
 import EscudoCelta from '/Escudos/celta-de-vino.png'
 import EscudoPuraQuimica from '/Escudos/pura-quimica.png'
 
@@ -13,14 +13,14 @@ const Table = () => {
             <TableTitleDivider/>
             <TableWrapper>
             <thead>
-            <tr>
-                <th>#</th>
-                <th className='team'>Equipo</th>
-                <th>Pts</th>
-                <th>PJ</th>
-                <th>DG</th>
-            </tr>
-        </thead>
+                <tr>
+                    <th>#</th>
+                    <th className='team'>Equipo</th>
+                    <th>Pts</th>
+                    <th>PJ</th>
+                    <th>DG</th>
+                </tr>
+            </thead>
         <tbody>
             <tr className='one'>
                 <td>1</td>
@@ -73,7 +73,30 @@ const Table = () => {
                 <td>+6</td>
             </tr>
         </tbody>
+
         </TableWrapper>
+
+        <TableTitleDivider/>
+            <TableFoot>
+
+                <TableFootItem>
+                    <div className='one'></div>
+                    <h3>Copa Oro</h3>
+                </TableFootItem>
+
+                <TableFootItem>
+                    <div className='two'></div>
+                    <h3>Copa plata</h3>
+                </TableFootItem>
+
+                <TableFootItem>
+                    <div className='three'></div>
+                    <h3>Descenso</h3>
+                </TableFootItem>
+
+                
+            </TableFoot>
+
         </TableContainerStyled>
         
     )
