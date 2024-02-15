@@ -23,7 +23,7 @@ export const AlignmentTeams = styled`
 export const AlignmentTeam = styled.div`
     display: flex;
     align-items: center;
-    gap: 5;
+    gap: 5px;
 
     img {
         width: 50px;

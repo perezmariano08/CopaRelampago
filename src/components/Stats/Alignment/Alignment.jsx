@@ -7,12 +7,19 @@ const Alignment = () => {
     <AlignmentWrapper>
         <h3>Formaciones</h3>
         <AlignmentDivider/>
+
         <AlignmentTeams>
+            <AlignmentTeam>
+                <img src={EscudoCelta} />
+                <p>Celta de Vino</p>
+            </AlignmentTeam>
+
             <AlignmentTeam>
                 <img src= {EscudoCelta}/>
                 <p>Celta de Vino</p>
             </AlignmentTeam>
         </AlignmentTeams>
+
     </AlignmentWrapper>
   )
 }
