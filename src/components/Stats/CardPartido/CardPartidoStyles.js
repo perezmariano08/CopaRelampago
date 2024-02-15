@@ -92,13 +92,41 @@ export const CardPartidoDivider = styled.div`
 
 export const CardPartidoStats = styled.div`
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 100%; 
+    
     a {
         font-size: 12px;
         font-weight: 600;
         color: var(--gray-200);
+    }
+`
+export const CardPartidoGoalsContainer= styled.div`
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: start;
+    gap: 25px;
+    padding: 15px 35px;
+
+    & svg, i {
+        color: var(--gray-200)
+    }
+`
+export const CardPartidoGoalsColumn = styled.div`
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    gap: 2px;
+
+    h5 {
+        font-size: 10;
+        font-weight: 300;
+    }
+
+    &.visit {
+        text-align: start;
     }
 `
 
