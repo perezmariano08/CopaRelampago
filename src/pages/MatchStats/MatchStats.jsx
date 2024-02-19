@@ -3,6 +3,7 @@ import CardFinalPartido from '../../components/Stats/CardFinalPartido/CardFinalP
 import Section from "../../components/Section/Section"
 import { MatchStatsContainer, MatchStatsWrapper } from './MatchStatsStyles'
 import Alignment from '../../components/Stats/Alignment/Alignment'
+import Incidents from '../../components/Stats/Incidents/Incidents'
 
 
 const MatchStats = () => {
@@ -16,6 +17,7 @@ const MatchStats = () => {
         </Section>
 
         <Alignment/>
+        <Incidents/>
 
       </MatchStatsWrapper>
     </MatchStatsContainer>

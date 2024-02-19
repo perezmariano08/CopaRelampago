@@ -123,6 +123,7 @@ export const CardPartidoGoalsColumn = styled.div`
     h5 {
         font-size: 10;
         font-weight: 300;
+        width:100%;
     }
 
     &.visit {
