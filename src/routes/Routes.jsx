@@ -11,26 +11,21 @@ import CreateAccount from '../pages/CreateAccount/CreateAccount'
 import MyTeam from '../pages/MyTeam/MyTeam'
 import Stats from '../pages/Stats/Stats'
 import Layout from '../components/Layout/Layout'
-import { Navbar } from '../components/Navbar/Navbar'
-import MenuBottom from '../components/MenuBottom/MenuBottom'
 import MatchStats from '../pages/MatchStats/MatchStats'
+import PrivateLayout from '../components/PrivateLayout/PrivateLayout'
 
 const Routes = () => {
     return (
         <BrowserRouter>
-            <Navbar/>
-            <Layout>
-                <ReactDomRoutes>
-                    <Route path='/onboarding' element={<Onboarding/>} />
-                    <Route path='/' element={<Home/>} />
-                    <Route path='/login' element={<Login/>}/>
-                    <Route path='/create-account' element={<CreateAccount/>}/>
-                    <Route path='/my-team' element={<MyTeam/>}/>
-                    <Route path='/stats' element={<Stats/>}/>
-                    <Route path='/stats-match' element={<MatchStats/>}/>
-                </ReactDomRoutes>
-            </Layout>
-            <MenuBottom/>
+            <ReactDomRoutes>
+                <Route path='/onboarding' element={<Layout> <Onboarding/> </Layout>} />
+                <Route path='/' element={<PrivateLayout> <Home/> </PrivateLayout> } />
+                <Route path='/login' element={<Layout> <Login/> </Layout>  }/>
+                <Route path='/create-account' element={<Layout> <CreateAccount/> </Layout>  }/>
+                <Route path='/my-team' element={ <PrivateLayout> <MyTeam/> </PrivateLayout>  }/>
+                <Route path='/stats' element={<PrivateLayout> <Stats/> </PrivateLayout>  }/>
+                <Route path='/stats-match' element={<PrivateLayout> <MatchStats/> </PrivateLayout>  }/>
+            </ReactDomRoutes>
         </BrowserRouter>
     )
 }
