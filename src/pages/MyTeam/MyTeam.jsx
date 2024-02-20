@@ -4,6 +4,7 @@ import Celta from '/Escudos/celta-de-vino.png'
 import Section from '../../components/Section/Section'
 import Table from '../../components/Stats/Table/Table'
 import TableTeam from '../../components/Stats/TableTeam/TableTeam'
+import CardOldMatches from '../../components/Stats/CardOldMatches/CardOldMatches'
 const MyTeam = () => {
     return (
         <>
@@ -53,6 +54,10 @@ const MyTeam = () => {
                 <Section>
                     <h2>Posiciones</h2>
                     <Table/>
+                </Section>
+
+                <Section>
+                    <CardOldMatches/>
                 </Section>
 
             </MyTeamWrapper>
