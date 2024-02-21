@@ -49,7 +49,7 @@ export const NotificationsContainer = styled.div`
     gap: 15px;
     padding: 15px;
     background-color: var(--gray-400);
-    max-height: 70%;
+    max-height: 600px;
     overflow-y: auto;
 `;
 
