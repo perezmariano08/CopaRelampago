@@ -4,6 +4,10 @@ export const NavbarContainerStyled = styled.header`
     width: 100%;
     height: 40px;
     background-color: var(--gray-400);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 `
 
 export const NavbarWrapper = styled.div`
@@ -14,8 +18,17 @@ export const NavbarWrapper = styled.div`
     width: 100%;
     max-width: 1200px;
     height: 100%;
- 
+
     img {
         height: 30%;
+    }
+`
+export const ContainerNoti = styled.button`
+    border: none;
+    background-color: transparent;
+
+    &i,svg {
+        font-size: 15px;
+        color: white;
     }
 `
