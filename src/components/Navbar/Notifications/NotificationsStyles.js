@@ -6,7 +6,7 @@ export const NotificationsStyledContainer = styled(motion.div)`
     width: 100%;
     height: 100%;
     z-index: 300;
-    top: 40px;
+    top: 0;
     right: 0;
     position: fixed;
     padding: 20px;
@@ -50,6 +50,7 @@ export const NotificationsContainer = styled.div`
     padding: 15px;
     background-color: var(--gray-400);
     max-height: 600px;
+    height: 100vh;
     overflow-y: auto;
 `;
 

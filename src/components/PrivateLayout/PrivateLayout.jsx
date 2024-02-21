@@ -1,5 +1,5 @@
 import React from 'react'
-import { LayoutContainerStyled } from '../Layout/LayoutStyles'
+import { PrivateLayoutContainerStyled } from '../Layout/LayoutStyles'
 import { Navbar } from '../Navbar/Navbar'
 import MenuBottom from '../MenuBottom/MenuBottom'
 
@@ -7,11 +7,11 @@ const PrivateLayout = ({children}) => {
   return (
     <>
         <Navbar/>
-        <LayoutContainerStyled>
+        <PrivateLayoutContainerStyled>
             {
                 children
             }
-        </LayoutContainerStyled>
+        </PrivateLayoutContainerStyled>
         <MenuBottom/>
     </>
   )

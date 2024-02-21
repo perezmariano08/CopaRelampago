@@ -16,11 +16,6 @@ const Notifications = () => {
             <h3>Notificaciones</h3>
             <NotificationsContainer>
                 <Notification/>
-                <Notification/>
-                <Notification/>
-                <Notification/>
-                <Notification/>
-                <Notification/>
             </NotificationsContainer>
         </NotificationsWrapper>
       </NotificationsStyledContainer>
