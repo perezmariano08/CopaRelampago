@@ -34,7 +34,7 @@ export const NewFoot = styled.div`
     width: 100%;
     gap: 10px; 
 
-    img {
+    .logo_foot, img {
         width: 15px;
     }
 
@@ -55,4 +55,12 @@ export const NewSecondaryWrapper = styled.div`
     }
 `
 
-export const NewSecondaryInfo = styled.div
+export const NewSecondaryImgWrapper = styled(NewContainer)`
+
+`
+
+export const NewSecondaryInfo = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+`

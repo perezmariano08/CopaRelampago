@@ -9,7 +9,7 @@ const NewMain = () => {
         </NewContainer>
         <h2>Enterate de las ultimas noticias del mejor torneo de Cordoba!</h2>
         <NewFoot>
-            <img src="/public/Logos/CR-Logo.png" alt="" />
+            <img src="/public/Logos/CR-Logo.png" alt="" className='logo_foot' />
             <p>Copa Relámpago - hace 3 horas</p>
         </NewFoot>
     </NewWrapper>

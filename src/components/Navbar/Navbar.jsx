@@ -1,10 +1,8 @@
 import React, { useState } from 'react'
 import { ContainerNoti, NavbarContainerStyled, NavbarWrapper } from './NavbarStyles'
-import { HiOutlineBars3 } from "react-icons/hi2";
 import logoCR from "/Logos/logoCopaRelampago.png"
 import { IoIosNotifications } from "react-icons/io";
 import Notifications from './Notifications/Notifications';
-import { AnimatePresence } from 'framer-motion';
 
 export const Navbar = () => {
 
