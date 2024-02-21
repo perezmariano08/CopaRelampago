@@ -67,4 +67,8 @@ export const GlobalStyles = createGlobalStyle`
         background-color: var(--gray-200); /* Color del pulgar al pasar el mouse por encima */
         
     }
+
+    .no-scroll {
+    overflow: hidden;
+    }
 `

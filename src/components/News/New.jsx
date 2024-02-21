@@ -1,10 +1,13 @@
 import React from 'react'
-import { NewFoot, NewSecondaryInfo, NewSecondaryWrapper } from './NewStyled'
+import { NewFoot, NewSecondaryImgWrapper, NewSecondaryInfo, NewSecondaryWrapper } from './NewStyled'
 
 const New = () => {
   return (
     <NewSecondaryWrapper>
+      <NewSecondaryImgWrapper>
         <img src="/back_login.jpg" />
+      </NewSecondaryImgWrapper>
+        
         <NewSecondaryInfo>
           <h2>Enterate de las ultimas noticias del mejor torneo de Cordoba!</h2>
           <NewFoot>

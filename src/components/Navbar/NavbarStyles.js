@@ -30,5 +30,6 @@ export const ContainerNoti = styled.button`
     &i,svg {
         font-size: 15px;
         color: white;
+        cursor: pointer;
     }
 `

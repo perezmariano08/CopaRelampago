@@ -100,3 +100,17 @@ export const NotificationText = styled.div`
         font-weight: 300;
     }
 `;
+
+export const NotiTopContainer = styled.div`
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    
+
+    &i,svg {
+        color: var(--green);
+        cursor: pointer;
+    }
+`

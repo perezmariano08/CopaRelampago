@@ -1,6 +1,6 @@
 import React from 'react'
 import { MenuBottomContainerStyled, MenuBottomItem, MenuBottomWrapper } from './MenuBottomStyles'
-import { HiHome, HiOutlineUserGroup, HiAdjustmentsVertical, HiBars3BottomRight} from 'react-icons/hi2'
+import { HiHome, HiOutlineUserGroup, HiAdjustmentsVertical, HiBars3BottomRight, HiMiniTableCells} from 'react-icons/hi2'
 const MenuBottom = () => {
   return (
     <MenuBottomContainerStyled>
@@ -18,6 +18,12 @@ const MenuBottom = () => {
           <HiAdjustmentsVertical/>
           ESTADISTICAS
         </MenuBottomItem>
+
+        <MenuBottomItem to={'/news'}>
+          <HiMiniTableCells/>
+          NOTICIAS
+        </MenuBottomItem>
+
         <MenuBottomItem to={'/onboardin'}>
           <HiBars3BottomRight/>
           MAS

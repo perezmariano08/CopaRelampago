@@ -56,7 +56,11 @@ export const NewSecondaryWrapper = styled.div`
 `
 
 export const NewSecondaryImgWrapper = styled(NewContainer)`
-
+    height: 100px;
+    width: 300px;
+    img {
+        width: 100%;
+    }
 `
 
 export const NewSecondaryInfo = styled.div`

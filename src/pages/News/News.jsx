@@ -14,6 +14,9 @@ const News = () => {
                 <NewMain/>
                 <NewMain/>
                 <New/>
+                <New/>
+                <New/>
+                <New/>
             </Section>
         </NewsWrapper>
     </NewsStylesContainer>
