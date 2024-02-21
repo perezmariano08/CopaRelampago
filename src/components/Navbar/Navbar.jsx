@@ -17,7 +17,6 @@ export const Navbar = () => {
     return (
         <NavbarContainerStyled>
             <NavbarWrapper>
-                <HiOutlineBars3/>
                 <img src={logoCR} alt="Logo Copa Relampago" />
                 <ContainerNoti onClick={toggleNoti}>
                     <IoIosNotifications style={{ color: isNotiOpen ? 'var(--green)' : 'white' }}/>
