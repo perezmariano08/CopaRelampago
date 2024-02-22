@@ -16,6 +16,10 @@ export const MenuBottomWrapper = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 20px 30px;
+    h4 {
+        font-size: 10px;
+        font-weight: 400;
+    }
 `
 
 export const MenuBottomItem = styled(NavLink)`
@@ -23,7 +27,6 @@ export const MenuBottomItem = styled(NavLink)`
     flex-direction: column;
     color: var(--white);
     align-items: center;
-    font-size: 12px;
     i, svg {
         font-size: 20px;
     }

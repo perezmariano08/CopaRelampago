@@ -7,26 +7,26 @@ const MenuBottom = () => {
       <MenuBottomWrapper>
         <MenuBottomItem to={'/'}>
           <HiHome/>
-          HOME
+          <h4>HOME</h4>
         </MenuBottomItem>
         <MenuBottomItem to={'/my-team'}>
           <HiOutlineUserGroup/>
-          MI EQUIPO
+          <h4>MI EQUIPO</h4>
         </MenuBottomItem>
         
         <MenuBottomItem to={'/stats'}>
           <HiAdjustmentsVertical/>
-          ESTADISTICAS
+          <h4>ESTADISTICAS</h4>
         </MenuBottomItem>
 
         <MenuBottomItem to={'/news'}>
           <HiMiniTableCells/>
-          NOTICIAS
+          <h4>NOTICIAS</h4>
         </MenuBottomItem>
 
         <MenuBottomItem to={'/more'}>
           <HiBars3BottomRight/>
-          MAS
+          <h4>MÁS</h4>
         </MenuBottomItem>
       </MenuBottomWrapper>
     </MenuBottomContainerStyled>
