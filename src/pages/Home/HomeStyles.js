@@ -8,7 +8,7 @@ export const HomeWrapper = styled.div`
     display: flex;
     flex-direction: column;
     gap: 40px;
-    
+
 `
 export const CardsMatchesContainer = styled.div`
     display: flex;

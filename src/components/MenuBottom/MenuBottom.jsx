@@ -24,7 +24,7 @@ const MenuBottom = () => {
           NOTICIAS
         </MenuBottomItem>
 
-        <MenuBottomItem to={'/onboardin'}>
+        <MenuBottomItem to={'/more'}>
           <HiBars3BottomRight/>
           MAS
         </MenuBottomItem>
