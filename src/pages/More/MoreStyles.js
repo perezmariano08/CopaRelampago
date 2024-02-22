@@ -49,6 +49,7 @@ export const MoreAction = styled.div`
     background: var(--gray-500);
     padding: 15px;
     border-radius: 15px;
+    cursor: pointer;
 `
 export const MoreIconContainer = styled.div`
     display: flex;
