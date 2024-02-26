@@ -21,9 +21,9 @@ const Fixture = () => {
                 <h5>14:00hs</h5>
                 <p>Cancha 01</p>
             </FixtureMatchInfo>
-            <FixtureMatchTeam>
-                <img src={EscudoCelta} alt="" />
-                <h4>Celta de vino</h4>
+            <FixtureMatchTeam className='visit'>
+                <img src={EscudoPuraQuimica} alt="" />
+                <h4>Pura Quimica</h4>
             </FixtureMatchTeam>
         </FixtureMatch>
         <FixtureMatch>
@@ -35,9 +35,9 @@ const Fixture = () => {
                 <h5>14:00hs</h5>
                 <p>Cancha 01</p>
             </FixtureMatchInfo>
-            <FixtureMatchTeam>
-                <img src={EscudoCelta} alt="" />
-                <h4>Celta de vino</h4>
+            <FixtureMatchTeam className='visit'>
+                <img src={EscudoPuraQuimica} alt="" />
+                <h4>Pura Quimica</h4>
             </FixtureMatchTeam>
         </FixtureMatch>
         <FixtureMatch>
@@ -49,9 +49,9 @@ const Fixture = () => {
                 <h5>14:00hs</h5>
                 <p>Cancha 01</p>
             </FixtureMatchInfo>
-            <FixtureMatchTeam>
-                <img src={EscudoCelta} alt="" />
-                <h4>Celta de vino</h4>
+            <FixtureMatchTeam className='visit'>
+                <img src={EscudoPuraQuimica} alt="" />
+                <h4>Pura Quimica</h4>
             </FixtureMatchTeam>
         </FixtureMatch>
         <FixtureMatch>
@@ -63,9 +63,9 @@ const Fixture = () => {
                 <h5>14:00hs</h5>
                 <p>Cancha 01</p>
             </FixtureMatchInfo>
-            <FixtureMatchTeam>
-                <img src={EscudoCelta} alt="" />
-                <h4>Celta de vino</h4>
+            <FixtureMatchTeam className='visit'>
+                <img src={EscudoPuraQuimica} alt="" />
+                <h4>Pura Quimica</h4>
             </FixtureMatchTeam>
         </FixtureMatch>
         <FixtureMatch>
@@ -77,9 +77,9 @@ const Fixture = () => {
                 <h5>14:00hs</h5>
                 <p>Cancha 01</p>
             </FixtureMatchInfo>
-            <FixtureMatchTeam>
-                <img src={EscudoCelta} alt="" />
-                <h4>Celta de vino</h4>
+            <FixtureMatchTeam className='visit'>
+                <img src={EscudoPuraQuimica} alt="" />
+                <h4>Pura Quimica</h4>
             </FixtureMatchTeam>
         </FixtureMatch>
         <FixtureMatch>
@@ -91,9 +91,23 @@ const Fixture = () => {
                 <h5>14:00hs</h5>
                 <p>Cancha 01</p>
             </FixtureMatchInfo>
+            <FixtureMatchTeam className='visit'>
+                <img src={EscudoPuraQuimica} alt="" />
+                <h4>Pura Quimica</h4>
+            </FixtureMatchTeam>
+        </FixtureMatch>
+        <FixtureMatch>
             <FixtureMatchTeam>
-                <img src={EscudoCelta} alt="" />
                 <h4>Celta de vino</h4>
+                <img src={EscudoCelta} alt="" />
+            </FixtureMatchTeam>
+            <FixtureMatchInfo>
+                <h5>14:00hs</h5>
+                <p>Cancha 01</p>
+            </FixtureMatchInfo>
+            <FixtureMatchTeam className='visit'>
+                <img src={EscudoPuraQuimica} alt="" />
+                <h4>Pura Quimica</h4>
             </FixtureMatchTeam>
         </FixtureMatch>
     </FixtureWrapper>

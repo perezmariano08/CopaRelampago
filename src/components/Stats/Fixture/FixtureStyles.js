@@ -35,16 +35,26 @@ export const FixtureMatch = styled.div`
     width: 100%;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 5px;
     border-bottom: 1px solid var(--gray-400);
     padding: 0px 10px 10px 10px;
 `
 export const FixtureMatchTeam = styled.div`
     display: flex;
     align-items: center;
-    gap: 5px;
+    justify-content: center;
+    text-align: start;
+    gap: 3px;
+    width: 100%;
+    h4 {
+        font-size: 14px;
+        font-weight: 500;
+    }
     img {
         height: 30px;
+    }
+    &.visit {
+        text-align: end;
     }
 `
 export const FixtureMatchInfo = styled.div`
