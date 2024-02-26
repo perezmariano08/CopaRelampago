@@ -36,7 +36,7 @@ export const FixtureMatch = styled.div`
     align-items: center;
     justify-content: center;
     gap: 5px;
-    border-bottom: 1px solid var(--gray-400);
+    border-bottom: 1px solid var(--gray-200);
     padding: 0px 10px 10px 10px;
 `
 export const FixtureMatchTeam = styled.div`
