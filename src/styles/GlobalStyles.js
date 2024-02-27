@@ -69,6 +69,24 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     .no-scroll {
-    overflow: hidden;
+        overflow: hidden;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .wrapper {
+        width: 100%;
+        display: flex;
+        padding-bottom: 140px;
+
+        @media (min-width: 300px) {
+            padding: 30px 15px 140px 15px;
+        }
+
+        @media (min-width: 400px) {
+            padding: 30px 20px 140px 20px;
+        }
     }
 `

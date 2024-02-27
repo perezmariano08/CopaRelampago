@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const MenuBottomContainerStyled = styled.footer`
     width: 100%;
-    padding: 0 30px 30px 30px;
+    padding: 0 10px 20px 10px;
     position: fixed;
     bottom: 0;
 `

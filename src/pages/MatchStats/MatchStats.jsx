@@ -8,8 +8,8 @@ import Incidents from '../../components/Stats/Incidents/Incidents'
 
 const MatchStats = () => {
   return (
-    <MatchStatsContainer>
-      <MatchStatsWrapper>
+    <MatchStatsContainer className='container'>
+      <MatchStatsWrapper className='wrapper'>
         
         <Section>
           <h2>Ficha de Partido</h2>

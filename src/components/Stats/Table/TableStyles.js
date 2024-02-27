@@ -99,7 +99,7 @@ export const TableFootItem = styled.div `
     align-items: center;
 
     h3 {
-        font-weight: 200;
+        font-weight: 400;
         font-size: 10px;
         line-height: 10px;
     }

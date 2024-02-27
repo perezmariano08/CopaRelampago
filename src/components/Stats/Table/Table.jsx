@@ -86,7 +86,7 @@ const Table = () => {
 
                 <TableFootItem>
                     <div className='two'></div>
-                    <h3>Copa plata</h3>
+                    <h3>Copa Plata</h3>
                 </TableFootItem>
 
                 <TableFootItem>

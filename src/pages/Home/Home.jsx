@@ -7,8 +7,8 @@ import Table from '../../components/Stats/Table/Table'
 const Home = () => {
     return (
         <>
-            <HomeContainerStyled>
-                <HomeWrapper>
+            <HomeContainerStyled className='container'>
+                <HomeWrapper className='wrapper'>
                     <Section>
                         <h2>Próximo partido</h2>
                         <CardPartido/>

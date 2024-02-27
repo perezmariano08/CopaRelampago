@@ -18,8 +18,8 @@ const MyTeam = () => {
             </MyTeamInfo>
             
         </MyTeamTitleContainer>
-        <MyTeamContainerStyled>
-            <MyTeamWrapper>
+        <MyTeamContainerStyled className='container'>
+            <MyTeamWrapper className='wrapper'>
                 <Section>
                     <h2>Partidos</h2>
                     <MyTeamMatches>

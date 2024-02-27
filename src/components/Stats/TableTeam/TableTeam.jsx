@@ -2,7 +2,7 @@ import React from 'react'
 import { TableContainerStyled, TableWrapper, TableTitle, TableTitleDivider } from '../Table/TableStyles'
 
 import UserDefault from '/user-default.png'
-import { HiMiniStop } from "react-icons/hi2"
+import { TbRectangleVerticalFilled } from "react-icons/tb";
 
 const TableTeam = () => {
   return (
@@ -19,8 +19,8 @@ const TableTeam = () => {
                 <th>PJ</th>
                 <th>G</th>
                 <th>A</th>
-                <th className='CardYellow'> <HiMiniStop/> </th>
-                <th className='CardRed'> <HiMiniStop/> </th>
+                <th className='CardYellow'> <TbRectangleVerticalFilled /> </th>
+                <th className='CardRed'> <TbRectangleVerticalFilled /> </th>
             </tr>
         </thead>
         <tbody>

@@ -6,12 +6,12 @@ import Fixture from '../../components/Stats/Fixture/Fixture'
 
 const Stats = () => {
     return (
-        <StatsContainerStyled>
-            <StatsWrapper>
+        <StatsContainerStyled className='container'>
+            <StatsWrapper className='wrapper'>
 
                 <StatsHeadContainer>
                     <Select>
-
+                        
                     </Select>
                     <StatsFilter>
 

@@ -55,11 +55,9 @@ export const MyTeamName = styled.div`
     flex-direction: column;
 `
 export const MyTeamContainerStyled = styled.div`
-    width: 100%;
-    padding: 30px 30px 140px 30px;
+    
 `
 export const MyTeamWrapper = styled.div`
-    display: flex;
     flex-direction: column;
     gap: 40px;
 `

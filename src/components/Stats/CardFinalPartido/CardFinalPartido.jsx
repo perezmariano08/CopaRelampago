@@ -15,7 +15,7 @@ const CardFinalPartido = () => {
             <CardPartidoTeam>
             <img src={EscudoCelta} />
                     <h4>
-                        Celta de vino
+                        Celta de Vino
                     </h4>
             </CardPartidoTeam>
             <CardPartidoInfo>

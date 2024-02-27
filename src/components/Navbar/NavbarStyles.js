@@ -26,7 +26,8 @@ export const NavbarWrapper = styled.div`
 export const ContainerNoti = styled.button`
     border: none;
     background-color: transparent;
-
+    display: flex;
+    align-items: center;
     &i,svg {
         font-size: 15px;
         color: white;
