@@ -5,7 +5,7 @@ import EscudoPuraQuimica from '/Escudos/pura-quimica.png'
 import { NavLink } from 'react-router-dom'
 
 
-const CardPartido = ({finished}) => {
+const CardPartido = ({finished, observer}) => {
     return (
         <CardPartidoWrapper> 
             <CardPartidoTitles>
@@ -56,17 +56,28 @@ const CardPartido = ({finished}) => {
                     <>
                         <CardPartidoDivider/>
                         <CardPartidoStats>
-                            <NavLink to = "/stats-match">
+                            <NavLink to="/stats-match">
                                 Ver estadísticas completas
                             </NavLink>
                         </CardPartidoStats>
                     </>
-                    
                 ) : (
-                    <>
+                    observer ? (
+                        <>
+                        <CardPartidoDivider/>
+                        <CardPartidoStats>
+                            <NavLink to="/planilla">
+                                Ir a planillar partido
+                            </NavLink>
+                        </CardPartidoStats>
                     </>
+                    ) : (
+                        <>
+                        </>
+                    )
                 )
             }
+
         </CardPartidoWrapper>
     )
 }

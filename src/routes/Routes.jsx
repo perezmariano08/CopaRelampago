@@ -16,6 +16,8 @@ import PrivateLayout from '../components/PrivateLayout/PrivateLayout'
 import News from '../pages/News/News'
 import More from '../pages/More/More'
 import LayoutAux from '../components/LayoutAux/LayoutAux'
+import HomePlanillero from '../pages/HomePlanillero/HomePlanillero'
+import Planilla from '../pages/Planilla/Planilla'
 
 const Routes = () => {
     return (
@@ -30,6 +32,11 @@ const Routes = () => {
                 <Route path='/stats-match' element={<PrivateLayout> <MatchStats/> </PrivateLayout>  }/>
                 <Route path='/news' element={<PrivateLayout> <News/> </PrivateLayout>  }/>
                 <Route path='/more' element={<LayoutAux> <More/> </LayoutAux>}/>
+
+                //PLANILLERO
+                <Route path='/homeplanillero' element={<PrivateLayout> <HomePlanillero/> </PrivateLayout>  }/>
+                <Route path='/planilla' element={<PrivateLayout> <Planilla/> </PrivateLayout>  }/>
+                
             </ReactDomRoutes>
         </BrowserRouter>
     )
