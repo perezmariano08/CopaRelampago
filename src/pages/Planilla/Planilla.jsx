@@ -3,6 +3,7 @@ import { MatchStatsContainer, MatchStatsWrapper } from '../MatchStats/MatchStats
 import Section from '../../components/Section/Section'
 import CardFinalPartido from '../../components/Stats/CardFinalPartido/CardFinalPartido'
 import Incidents from '../../components/Stats/Incidents/Incidents'
+import FormacionesPlanilla from '../../components/FormacionesPlanilla/FormacionesPlanilla'
 
 const Planilla = () => {
   return (
@@ -12,7 +13,7 @@ const Planilla = () => {
                 <h2>Ficha de partido</h2>
                 <CardFinalPartido/>
             </Section>
-            
+            <FormacionesPlanilla/>
             <Incidents/>
         </MatchStatsWrapper>
     </MatchStatsContainer>

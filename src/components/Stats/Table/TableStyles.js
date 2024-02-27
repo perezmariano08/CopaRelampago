@@ -56,10 +56,6 @@ export const TableWrapper = styled.table`
         gap: 5px;
     }
 
-    .team img {
-        height: 15px;
-    }
-
     th {
         color: var(--gray-200);
     }
