@@ -1,7 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const INITIAL_STATE = {
-    hidden: true
+    hidden: true,
+    navigationSource: '',
 }
 
 const planillaSlice = createSlice({
@@ -13,12 +14,15 @@ const planillaSlice = createSlice({
                 ...state,
                 hidden: !state.hidden              
             }
-        }
+        },
+        setNavigationSource: (state, action) => {
+            state.navigationSource = action.payload
+        },
     }
 })
 
 export const {
-    toggleHiddenAction
+    toggleHiddenAction, setNavigationSource
 } = planillaSlice.actions;
 
 export default planillaSlice.reducer;

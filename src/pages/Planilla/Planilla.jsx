@@ -6,6 +6,7 @@ import Incidents from '../../components/Stats/Incidents/Incidents'
 import FormacionesPlanilla from '../../components/FormacionesPlanilla/FormacionesPlanilla'
 import ActionConfirmed from '../../components/FormacionesPlanilla/ActionConfirmed/ActionConfirmed'
 import ActionTime from '../../components/FormacionesPlanilla/ActionTime/ActionTime'
+import ActionAsisted from '../../components/FormacionesPlanilla/ActionAsisted/ActionAsisted'
 
 const Planilla = () => {
   return (
@@ -21,6 +22,7 @@ const Planilla = () => {
             <Incidents/>
             
             <ActionConfirmed/>
+            <ActionAsisted/>
             <ActionTime/>
 
         </MatchStatsWrapper>

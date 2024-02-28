@@ -19,18 +19,23 @@ export const FormacionesPlanillaTitle = styled.div`
     h3 {
         font-weight: 600;
     }
+
+    img {
+        width: 30px;
+    }
 `
 export const PlanillaButtons = styled.button`
     background: transparent;
-    border: 1px solid var(--green);
     padding: 5px 10px;
     color: white;
     border-radius: 10px;
+    border: 1px solid var(--green);
     cursor: pointer;
-    &.local {
-        background: var(--green);
+    &.active {
+        background-color: var(--green);
+        font-size: 15px;
     }
-`
+`;
 export const TablePlanillaWrapper = styled.table`
     background-color: var(--gray-300);
     width: 100%;
