@@ -15,6 +15,7 @@ const planillaSlice = createSlice({
                 hidden: !state.hidden              
             }
         },
+        
         setNavigationSource: (state, action) => {
             state.navigationSource = action.payload
         },

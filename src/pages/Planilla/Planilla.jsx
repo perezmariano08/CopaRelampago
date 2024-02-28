@@ -7,11 +7,14 @@ import FormacionesPlanilla from '../../components/FormacionesPlanilla/Formacione
 import ActionConfirmed from '../../components/FormacionesPlanilla/ActionConfirmed/ActionConfirmed'
 import ActionTime from '../../components/FormacionesPlanilla/ActionTime/ActionTime'
 import ActionAsisted from '../../components/FormacionesPlanilla/ActionAsisted/ActionAsisted'
+import Cronometro from '../../components/FormacionesPlanilla/Cronometro/Cronometro.jsx'
+import { PlanillaContainerStyled } from './PlanillaStyles.js'
 
 const Planilla = () => {
   return (
-    <MatchStatsContainer className='container'>
+    <PlanillaContainerStyled className='container'>
         <MatchStatsWrapper className='wrapper'>
+            <Cronometro/>
             <Section>
                 <h2>Ficha de partido</h2>
                 <CardFinalPartido/>
@@ -26,7 +29,7 @@ const Planilla = () => {
             <ActionTime/>
 
         </MatchStatsWrapper>
-    </MatchStatsContainer>
+    </PlanillaContainerStyled>
     )
 }
 

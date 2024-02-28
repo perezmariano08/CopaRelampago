@@ -47,11 +47,16 @@ export const TablePlanillaWrapper = styled.table`
     th {
         color: var(--gray-200);
         text-align: start;
+        &.visit {
+            text-align: end;
+        }
     }
 
     td {
         text-align: start;
-
+        &.visit {
+            text-align: end;
+        }
     }
 
     .dorsal {

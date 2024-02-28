@@ -63,17 +63,17 @@ const FormacionesPlanilla = () => {
                     <>
                     <thead>
                         <tr className='head'>
-                            <th>Nombre</th>
-                            <th>DNI</th>
-                            <th>Dorsal</th>
+                            <th className='visit'>Nombre</th>
+                            <th className='visit'>DNI</th>
+                            <th className='visit'>Dorsal</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr className='bodyRow'>
-                            <td className='dni'>43450997</td>
-                            <td className='text'>POZZO SEIA, Conrado</td>
+                            <td className='dni visit'>43450997</td>
+                            <td className='text visit'>POZZO SEIA, Conrado</td>
                             <td
-                                className='dorsal'
+                                className='dorsal visit'
                                 onClick={() => dispatch(toggleHiddenAction())}
                             >
                                 10
