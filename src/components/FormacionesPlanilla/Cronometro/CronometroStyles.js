@@ -2,29 +2,27 @@ import styled from "styled-components";
 
 export const CronometroContainer = styled.div`
   position: fixed;
-  top: 10px;
+  top: 40px;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  z-index: 999;
 `;
 
 export const CronometroWrapper = styled.div`
-    margin: 0px;
     background: black;
     width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: var(--gray-300);
+    background-color: var(--gray-400);
     gap: 10px;
-    box-shadow: 1px 1px 10px var(--gray-500);
+    border-radius: 0 0 20px 20px;
 
     button {
         border: none;

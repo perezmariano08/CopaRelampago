@@ -5,7 +5,7 @@ export const NotificationsStyledContainer = styled(motion.div)`
     background-color: var(--gray-300);
     width: 100%;
     height: 100%;
-    z-index: 300;
+    z-index: 1000;
     top: 0;
     right: 0;
     position: fixed;

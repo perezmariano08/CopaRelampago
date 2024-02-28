@@ -53,8 +53,8 @@ function Cronometro() {
   return (
     <CronometroContainer>
             <CronometroWrapper>
-      <CronometroH1>{timeFormat(diff)}</CronometroH1>
-      <ButtonsContainer>
+    <CronometroH1>{timeFormat(diff)}</CronometroH1>
+    <ButtonsContainer>
         {paused ? (
             <button onClick={start}>
                 <HiMiniPlayCircle/>
@@ -78,17 +78,19 @@ function Cronometro() {
 }
 
 const timeFormat = (date) => {
-  if (!date) return "00:00:00";
+  if (!date) return "00:00:00:00";
 
+  let hh = date.getUTCHours();
   let mm = date.getUTCMinutes();
   let ss = date.getSeconds();
   let cm = Math.round(date.getMilliseconds() / 10);
 
+  hh = hh < 10 ? "0" + hh : hh;
   mm = mm < 10 ? "0" + mm : mm;
   ss = ss < 10 ? "0" + ss : ss;
   cm = cm < 10 ? "0" + cm : cm;
 
-  return `${mm}:${ss}:${cm}`;
+  return `${hh}:${mm}:${ss}:${cm}`;
 };
 
 export default Cronometro;

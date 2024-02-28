@@ -10,7 +10,7 @@ export const ActionConfirmedContainer = styled.div`
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5); /* Color de fondo semitransparente para el overlay */
-    z-index: 999; /* Asegura que esté por encima de otros elementos */
+    z-index: 998; /* Asegura que esté por encima de otros elementos */
 `
 export const ActionConfirmedWrapper = styled.div`
     width: 60%;

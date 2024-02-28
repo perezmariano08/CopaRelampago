@@ -73,7 +73,7 @@ const FormacionesPlanilla = () => {
                             <td className='dni visit'>43450997</td>
                             <td className='text visit'>POZZO SEIA, Conrado</td>
                             <td
-                                className='dorsal visit'
+                                className='dorsal'
                                 onClick={() => dispatch(toggleHiddenAction())}
                             >
                                 10
