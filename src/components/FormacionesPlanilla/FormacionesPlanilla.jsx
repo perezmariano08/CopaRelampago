@@ -2,7 +2,14 @@ import React from 'react'
 import { FormacionesPlanillaTitle, FormacionesPlanillaWrapper, PlanillaButtons, TablePlanillaWrapper } from './FormacionesPlanillaStyles'
 import { AlignmentDivider } from '../Stats/Alignment/AlignmentStyles'
 
+import { useDispatch } from 'react-redux'
+import { toggleHiddenAction } from '../../redux/Planillero/planillaSlice'
+import ActionConfirmed from './ActionConfirmed/ActionConfirmed'
+
 const FormacionesPlanilla = () => {
+
+    const dispatch = useDispatch();
+
   return (
     <FormacionesPlanillaWrapper>
         <FormacionesPlanillaTitle>
@@ -25,12 +32,10 @@ const FormacionesPlanilla = () => {
             </thead>
             <tbody>
                 <tr className='bodyRow'>
-                    <td className='dorsal'>10</td>
-                    <td className='dni'>43450997</td>
-                    <td className='text'>PEREZ SEIA, Conrado</td>
-                </tr>
-                <tr className='bodyRow'>
-                    <td className='dorsal'>10</td>
+                    <td
+                    className='dorsal'
+                    onClick={() => dispatch(toggleHiddenAction())}
+                    >10</td>
                     <td className='dni'>43450997</td>
                     <td className='text'>PEREZ SEIA, Conrado</td>
                 </tr>

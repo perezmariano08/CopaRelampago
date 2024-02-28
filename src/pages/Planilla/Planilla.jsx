@@ -4,6 +4,8 @@ import Section from '../../components/Section/Section'
 import CardFinalPartido from '../../components/Stats/CardFinalPartido/CardFinalPartido'
 import Incidents from '../../components/Stats/Incidents/Incidents'
 import FormacionesPlanilla from '../../components/FormacionesPlanilla/FormacionesPlanilla'
+import ActionConfirmed from '../../components/FormacionesPlanilla/ActionConfirmed/ActionConfirmed'
+import ActionTime from '../../components/FormacionesPlanilla/ActionTime/ActionTime'
 
 const Planilla = () => {
   return (
@@ -13,8 +15,14 @@ const Planilla = () => {
                 <h2>Ficha de partido</h2>
                 <CardFinalPartido/>
             </Section>
+            
             <FormacionesPlanilla/>
+
             <Incidents/>
+            
+            <ActionConfirmed/>
+            <ActionTime/>
+
         </MatchStatsWrapper>
     </MatchStatsContainer>
     )

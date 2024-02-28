@@ -2,16 +2,23 @@ import { combineReducers, configureStore } from "@reduxjs/toolkit"
 import persistReducer from "redux-persist/es/persistReducer"
 import persistStore from "redux-persist/lib/persistStore"
 import storage from "redux-persist/lib/storage"
+
 import notisReducer from "./Notis/notisSlice"
 
+import planillaReducer from "./Planillero/planillaSlice"
+
+import planillaTimeReducer from './Planillero/planillaTimeSlice'
+
 const reducers = combineReducers({
-    notis: notisReducer
+    notis: notisReducer,
+    planilla: planillaReducer,
+    planillaTime: planillaTimeReducer
 });
 
 const persistConfig = {
     key: "root",
     storage,
-    whitelist: ["notis"]
+    whitelist: ["notis", "planilla", "planillaTime"]
 }
 
 //al persist se le pasa como segundo parametro los reducers que va a consumir, y los que se guardan en localStorage son los incluidos en la whitelist
